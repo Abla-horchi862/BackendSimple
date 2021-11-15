@@ -1,0 +1,30 @@
+{
+  "name": "backendsimple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.2",
+    "path": "^0.12.7",
+    "rand-token": "^1.0.1",
+    "rate-limit": "^0.1.1",
+    "sequelize": "^6.9.0",
+    "xss": "^1.0.10",
+    "xss-clean": "^0.1.1"
+  }
+}
